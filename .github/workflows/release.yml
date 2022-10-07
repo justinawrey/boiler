@@ -34,6 +34,6 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: vx.x.x
-      - run: deno run --allow-net --allow-env --allow-run https://deno.land/x/shipit@0.5.1/shipit.ts
+      - run: deno run --allow-net --allow-env --allow-run https://deno.land/x/shipit@0.6.0/shipit.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
